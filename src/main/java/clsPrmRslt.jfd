@@ -1,0 +1,78 @@
+JFDML JFormDesigner: "6.0.2.0.116" Java: "1.8.0_152-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JDialog", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+			name: "dlgPrmRslt"
+			"background": new java.awt.Color( 255, 255, 204, 255 )
+			"foreground": new java.awt.Color( 0, 0, 102, 255 )
+			"font": new java.awt.Font( "Lucida Grande", 1, 14 )
+			"alwaysOnTop": true
+			"$locationPolicy": 1
+			"defaultCloseOperation": 2
+			"title": "Results of Prime Number Calculation"
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+				name: "dialogPane"
+				"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+				"foreground": new java.awt.Color( 0, 0, 102, 255 )
+				"background": new java.awt.Color( 255, 255, 204, 255 )
+				"minimumSize": new java.awt.Dimension( 122, 190 )
+				"maximumSize": new java.awt.Dimension( 122, 190 )
+				"preferredSize": new java.awt.Dimension( 122, 190 )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.intellij.uiDesigner.core.GridLayoutManager ) {
+					"$columnCount": 1
+					"$rowCount": 1
+				} ) {
+					name: "pnlRslts"
+					"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+					"foreground": new java.awt.Color( 0, 0, 102, 255 )
+					"background": new java.awt.Color( 255, 255, 204, 255 )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "Center"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+					name: "pnlBttn"
+					"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridBagLayout ) {
+						"$columnSpecs": "0:1.0, 80, 0"
+						"$rowSpecs": "39, 5"
+						"$hGap": 5
+						"$vGap": 5
+					} ) {
+						name: "barButton"
+						"border": new javax.swing.border.EmptyBorder( 12, 0, 0, 0 )
+						"background": new java.awt.Color( 255, 255, 204, 255 )
+						"preferredSize": new java.awt.Dimension( 130, 65 )
+						add( new FormComponent( "javax.swing.JButton" ) {
+							name: "btnOK"
+							"text": "OK"
+							"background": new java.awt.Color( 0, 0, 102, 255 )
+							"foreground": sfield java.awt.Color cyan
+							"maximumSize": new java.awt.Dimension( 60, 32 )
+							"minimumSize": new java.awt.Dimension( 60, 32 )
+							"preferredSize": new java.awt.Dimension( 60, 32 )
+							"font": new java.awt.Font( "sansserif", 1, 14 )
+							"horizontalTextPosition": 0
+							"border": new javax.swing.border.LineBorder( sfield java.awt.Color cyan, 1, true )
+							"iconTextGap": 2
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+							"vAlign": 0
+							"hAlign": 0
+							"gridx": 1
+						} )
+					}, new FormLayoutConstraints( class java.lang.String ) {
+						"value": "North"
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "South"
+				} )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "Center"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 540, 395 )
+		} )
+	}
+}

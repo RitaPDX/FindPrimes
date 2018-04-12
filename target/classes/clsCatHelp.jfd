@@ -1,0 +1,96 @@
+JFDML JFormDesigner: "6.0.1.0.112" Java: "1.8.0_112-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JDialog", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq t {space :0:0:x, comp pnlDlgPnl:::::x, space :::p}}"
+			"$verticalGroup": "par l {seq l {comp pnlDlgPnl:::p::p, space :::x}}"
+		} ) {
+			name: "clsCatHlp"
+			"background": &Color0 new java.awt.Color( 255, 255, 192, 255 )
+			"font": new java.awt.Font( "Lucida Grande", 1, 13 )
+			"title": "Help: Prime Number Categories"
+			"alwaysOnTop": true
+			"name": "clsCatHlp"
+			"minimumSize": new java.awt.Dimension( 400, 375 )
+			"resizable": false
+			"$locationPolicy": 1
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {comp pnlContent:::p::p, comp buttonBar:::p:415:p}"
+				"$verticalGroup": "par l {seq {comp pnlContent:::p:264:p, space s:::p, comp buttonBar:::p:63:p, space :::x}}"
+			} ) {
+				name: "pnlDlgPnl"
+				"background": new java.awt.Color( 255, 255, 192, 255 )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par l {seq {space :::p, comp txtHelpCat:::p:387:p, space u:::p, comp pnlScroll:::::x}}"
+					"$verticalGroup": "par l {seq {par l {comp pnlScroll:::::x, comp txtHelpCat::l:::x}, space :p:11:p}}"
+				} ) {
+					name: "pnlContent"
+					"background": new java.awt.Color( 255, 255, 192, 255 )
+					"foreground": new java.awt.Color( 153, 255, 255, 255 )
+					"preferredSize": new java.awt.Dimension( 405, 200 )
+					"minimumSize": new java.awt.Dimension( 405, 200 )
+					auxiliary() {
+						"JavaCodeGenerator.variableModifiers": 1
+					}
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "pnlScroll"
+						"minimumSize": new java.awt.Dimension( 350, 275 )
+						"preferredSize": new java.awt.Dimension( 350, 275 )
+						"background": new java.awt.Color( 255, 255, 255, 255 )
+						"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+					} )
+					add( new FormComponent( "javax.swing.JTextArea" ) {
+						name: "txtHelpCat"
+						"background": #Color0
+						"foreground": new java.awt.Color( 0, 0, 102, 255 )
+						"preferredSize": new java.awt.Dimension( 400, 375 )
+						"minimumSize": new java.awt.Dimension( 400, 375 )
+						"wrapStyleWord": true
+						"editable": false
+						"tabSize": 1
+						"alignmentX": 0.0f
+						"alignmentY": 0.0f
+						"margin": new java.awt.Insets( 0, 5, 0, 5 )
+						"font": new java.awt.Font( ".SF NS Text", 1, 11 )
+						"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+						auxiliary() {
+							"JavaCodeGenerator.variableModifiers": 1
+						}
+					} )
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+					"$layoutConstraints": "insets dialog,alignx right"
+					"$columnConstraints": "[fill]"
+					"$rowSpecs": "[fill]"
+					"$rowConstraints": "0[grow,fill]0"
+				} ) {
+					name: "buttonBar"
+					"background": #Color0
+					"foreground": sfield java.awt.Color black
+					"font": new java.awt.Font( ".SF NS Text", 1, 16 )
+					"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "btnOK"
+						"text": "OK"
+						"background": new java.awt.Color( 0, 0, 153, 255 )
+						"foreground": sfield java.awt.Color cyan
+						"font": new com.jformdesigner.model.SwingDerivedFont( ".SF NS Text", 1, 1, false )
+						"maximumSize": new java.awt.Dimension( 70, 35 )
+						"minimumSize": new java.awt.Dimension( 70, 35 )
+						"preferredSize": new java.awt.Dimension( 70, 35 )
+						"border": new javax.swing.border.LineBorder( sfield java.awt.Color black, 2, true )
+						"opaque": true
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "okButtonActionPerformed", true ) )
+					}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+						"value": "tag ok,cell 0 0"
+					} )
+				} )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 15, 5 )
+			"size": new java.awt.Dimension( 400, 375 )
+		} )
+	}
+}

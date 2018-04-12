@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EntryPointsManager">
+    <entry_points version="2.0">
+      <entry_point TYPE="field" FQNAME="clsFindPrimeNumbers ID_OK" />
+      <entry_point TYPE="field" FQNAME="clsFindPrimeNumbers ID_CANX" />
+    </entry_points>
+    <pattern value="clsPrimeRslts" method="initComponents" />
+    <pattern value="clsPrimeRslts" method="btnOKActionPerformed" />
+    <pattern value="clsPrimeRslts" />
+    <pattern value="clsOpenPrimes" method="close" />
+    <pattern value="clsOpenPrimes" />
+    <pattern value="clsFindPrimeNumbers" method="btnHlpBiTwinActionPerformed" />
+    <pattern value="clsFindPrimeNumbers" method="btnHlpArProgActionPerformed" />
+    <pattern value="clsFindPrimeNumbers" method="btnHlpReglrActionPerformed" />
+    <pattern value="clsFindPrimeNumbers" method="btnHlpBalnActionPerformed" />
+    <pattern value="clsFindPrimeNumbers" method="btnHlpSafeActionPerformed" />
+    <pattern value="clsFindPrimeNumbers" method="btnHlpCunnActionPerformed" />
+    <pattern value="clsFindPrimeNumbers" method="btnHlpSphyActionPerformed" />
+    <pattern value="clsFindPrimeNumbers" method="btnHlpSxyActionPerformed" />
+    <pattern value="clsFindPrimeNumbers" method="btnHlpCousinActionPerformed" />
+    <pattern value="clsFindPrimeNumbers" method="btnHlpSextActionPerformed" />
+    <pattern value="clsFindPrimeNumbers" method="btnHlpQuintActionPerformed" />
+    <pattern value="clsFindPrimeNumbers" method="btnHlpQuadActionPerformed" />
+    <pattern value="clsFindPrimeNumbers" method="btnHlpTrpltActionPerformed" />
+    <pattern value="clsFindPrimeNumbers" method="btnHlpTwinActionPerformed" />
+    <pattern value="clsFindPrimeNumbers" method="radBiTwinStateChanged" />
+    <pattern value="clsFindPrimeNumbers" method="radArithProgStateChanged" />
+    <pattern value="clsFindPrimeNumbers" method="radRegularStateChanged" />
+    <pattern value="clsFindPrimeNumbers" method="radBalancedStateChanged" />
+    <pattern value="clsFindPrimeNumbers" method="radSafeStateChanged" />
+    <pattern value="clsFindPrimeNumbers" method="radCunninghamStateChanged" />
+    <pattern value="clsFindPrimeNumbers" method="radSophieStateChanged" />
+    <pattern value="clsFindPrimeNumbers" method="radSexyStateChanged" />
+    <pattern value="clsFindPrimeNumbers" method="radCousinStateChanged" />
+    <pattern value="clsFindPrimeNumbers" method="radSextActionPerformed" />
+    <pattern value="clsFindPrimeNumbers" method="radQuintActionPerformed" />
+    <pattern value="clsFindPrimeNumbers" method="radQuadStateChanged" />
+    <pattern value="clsFindPrimeNumbers" method="radTripletStateChanged" />
+    <pattern value="clsFindPrimeNumbers" method="radTwinStateChanged" />
+    <pattern value="clsFindPrimeNumbers" method="btnOKActionPerformed" />
+    <pattern value="clsFindPrimeNumbers" method="btnCanxActionPerformed" />
+    <pattern value="clsFindPrimeNumbers" />
+    <pattern value="clsCatHelp" method="okButtonActionPerformed" />
+    <pattern value="clsCatHelp" />
+    <pattern value="clsCalcPrimes" method="intFindPrevOrNext" />
+    <pattern value="clsCalcPrimes" method="DoDuetsCalc" />
+    <pattern value="clsCalcPrimes" method="clsCalcPrimes" />
+    <pattern value="clsCalcPrimes" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

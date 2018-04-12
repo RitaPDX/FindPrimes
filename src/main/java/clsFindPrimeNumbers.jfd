@@ -1,0 +1,569 @@
+JFDML JFormDesigner: "6.0.2.0.116" Java: "1.8.0_152-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JDialog", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+			name: "dlgPrimeNumbers"
+			"background": new java.awt.Color( 0, 0, 102, 255 )
+			"foreground": new java.awt.Color( 153, 255, 255, 255 )
+			"font": new java.awt.Font( "Lucida Grande", 1, 13 )
+			"title": "Build a List of Prime Numbers?"
+			"name": "dlgPrimeNumbers"
+			"alwaysOnTop": true
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+				name: "dialogPane"
+				"border": new javax.swing.border.LineBorder( sfield java.awt.Color blue, 1, false )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+					name: "panel1"
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+						"$layoutConstraints": "insets dialog,hidemode 3,alignx center"
+						"$columnConstraints": "[fill][fill][300!,fill][fill][300!,fill][fill]"
+						"$rowConstraints": "[40!][][40!][][40!][30:40:30][30!][30!][30!][30!][30!][30!][]"
+					} ) {
+						name: "pnlPrimes"
+						"background": new java.awt.Color( 0, 0, 102, 255 )
+						"foreground": new java.awt.Color( 153, 255, 255, 255 )
+						"maximumSize": new java.awt.Dimension( 750, 440 )
+						"minimumSize": new java.awt.Dimension( 750, 440 )
+						"preferredSize": new java.awt.Dimension( 750, 440 )
+						"border": new javax.swing.border.LineBorder( sfield java.awt.Color cyan, 1, true )
+						"font": new java.awt.Font( "sansserif", 0, 14 )
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "lblCount"
+							"text": "Enter the number of Prime Numbers you wish to find:"
+							"background": new java.awt.Color( 0, 0, 102, 255 )
+							"foreground": new java.awt.Color( 153, 255, 255, 255 )
+							"font": new java.awt.Font( "sansserif", 1, 14 )
+						}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+							"value": "cell 2 0 3 1"
+						} )
+						add( new FormComponent( "javax.swing.JSpinner" ) {
+							name: "spnCount"
+							"background": new java.awt.Color( 0, 0, 102, 255 )
+							"foreground": new java.awt.Color( 153, 255, 255, 255 )
+							"font": &Font0 new java.awt.Font( ".SF NS Text", 1, 13 )
+							"minimumSize": new java.awt.Dimension( 90, 40 )
+							"maximumSize": new java.awt.Dimension( 90, 40 )
+							"border": new javax.swing.border.LineBorder( sfield java.awt.Color cyan, 1, false )
+							"preferredSize": new java.awt.Dimension( 90, 40 )
+							"model": new javax.swing.SpinnerNumberModel {
+								minimum: 2
+								value: 2
+							}
+							auxiliary() {
+								"JavaCodeGenerator.variableModifiers": 1
+							}
+						}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+							"value": "pad 0,cell 2 0 3 1,alignx right,growx 0"
+						} )
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "lblValInit"
+							"text": "Enter the initial Prime Number"
+							"background": new java.awt.Color( 0, 0, 102, 255 )
+							"font": new java.awt.Font( "sansserif", 1, 14 )
+							"foreground": new java.awt.Color( 153, 255, 255, 255 )
+						}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+							"value": "cell 2 2"
+						} )
+						add( new FormComponent( "javax.swing.JSpinner" ) {
+							name: "spnValInit"
+							"maximumSize": new java.awt.Dimension( 90, 40 )
+							"minimumSize": new java.awt.Dimension( 90, 40 )
+							"preferredSize": new java.awt.Dimension( 90, 40 )
+							"background": new java.awt.Color( 0, 0, 102, 255 )
+							"foreground": new java.awt.Color( 153, 255, 255, 255 )
+							"border": new javax.swing.border.LineBorder( sfield java.awt.Color cyan, 1, false )
+							"font": #Font0
+							"model": new javax.swing.SpinnerNumberModel {
+								minimum: 2
+								value: 2
+							}
+							auxiliary() {
+								"JavaCodeGenerator.variableModifiers": 1
+							}
+						}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+							"value": "pad 0,cell 4 2,alignx right,growx 0"
+						} )
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "lblCatgry"
+							"text": "Select the category of Prime number you wish to find  "
+							"background": new java.awt.Color( 0, 0, 102, 255 )
+							"font": new java.awt.Font( "SansSerif", 1, 14 )
+							"foreground": new java.awt.Color( 153, 255, 255, 255 )
+							"horizontalAlignment": 2
+							"maximumSize": new java.awt.Dimension( 400, 25 )
+							"minimumSize": new java.awt.Dimension( 400, 25 )
+							"preferredSize": new java.awt.Dimension( 400, 25 )
+							"iconTextGap": 6
+						}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+							"value": "cell 2 4 4 1"
+						} )
+						add( new FormComponent( "javax.swing.JButton" ) {
+							name: "btnHlpTwin"
+							"icon": &SwingIcon0 new com.jformdesigner.model.SwingIcon( 1, "/Users/ritapdx/Pictures/Icons/HelpIcon_12by12.jpg" )
+							"background": &Color0 new java.awt.Color( 0, 0, 102, 255 )
+							"maximumSize": &Dimension0 new java.awt.Dimension( 14, 14 )
+							"minimumSize": &Dimension1 new java.awt.Dimension( 14, 14 )
+							"preferredSize": &Dimension2 new java.awt.Dimension( 14, 14 )
+							"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+							"font": &Font1 new java.awt.Font( "sansserif", 0, 14 )
+							addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnHlpTwinActionPerformed", true ) )
+						}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+							"value": "cell 1 5"
+						} )
+						add( new FormComponent( "javax.swing.JRadioButton" ) {
+							name: "radTwin"
+							"text": "Twin"
+							"background": &Color1 new java.awt.Color( 0, 0, 102, 255 )
+							"font": #Font1
+							"foreground": &Color2 new java.awt.Color( 153, 255, 255, 255 )
+							"horizontalAlignment": 2
+							"iconTextGap": 8
+							"maximumSize": new java.awt.Dimension( 175, 30 )
+							"minimumSize": new java.awt.Dimension( 175, 30 )
+							"preferredSize": new java.awt.Dimension( 175, 30 )
+							"$buttonGroup": new FormReference( "grpBtnPrimes" )
+							"border": new com.jformdesigner.model.SwingBorder( "RadioButton.border" )
+							addEvent( new FormEvent( "javax.swing.event.ChangeListener", "stateChanged", "radTwinStateChanged", true ) )
+						}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+							"value": "cell 2 5,alignx left,growx 0"
+						} )
+						add( new FormComponent( "javax.swing.JButton" ) {
+							name: "btnHlpSphy"
+							"icon": #SwingIcon0
+							"background": #Color0
+							"maximumSize": #Dimension0
+							"minimumSize": #Dimension1
+							"preferredSize": #Dimension2
+							"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+							"font": #Font1
+							addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnHlpSphyActionPerformed", true ) )
+						}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+							"value": "cell 3 5"
+						} )
+						add( new FormComponent( "javax.swing.JRadioButton" ) {
+							name: "radSophie"
+							"text": "Sophie Germain"
+							"background": #Color1
+							"font": &Font2 new java.awt.Font( ".SF NS Text", 1, 14 )
+							"foreground": #Color2
+							"horizontalAlignment": 2
+							"iconTextGap": 8
+							"maximumSize": new java.awt.Dimension( 275, 30 )
+							"minimumSize": new java.awt.Dimension( 275, 30 )
+							"preferredSize": new java.awt.Dimension( 275, 30 )
+							"$buttonGroup": new FormReference( "grpBtnPrimes" )
+							addEvent( new FormEvent( "javax.swing.event.ChangeListener", "stateChanged", "radSophieStateChanged", true ) )
+						}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+							"value": "cell 4 5,growx"
+						} )
+						add( new FormComponent( "javax.swing.JButton" ) {
+							name: "btnHlpTrplt"
+							"icon": #SwingIcon0
+							"background": #Color0
+							"maximumSize": #Dimension0
+							"minimumSize": #Dimension1
+							"preferredSize": #Dimension2
+							"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+							addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnHlpTrpltActionPerformed", true ) )
+						}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+							"value": "cell 1 6"
+						} )
+						add( new FormComponent( "javax.swing.JRadioButton" ) {
+							name: "radTriplet"
+							"text": "Triplet"
+							"background": #Color1
+							"font": #Font2
+							"foreground": #Color2
+							"horizontalAlignment": 2
+							"iconTextGap": 8
+							"maximumSize": new java.awt.Dimension( 175, 30 )
+							"minimumSize": new java.awt.Dimension( 175, 30 )
+							"preferredSize": new java.awt.Dimension( 175, 30 )
+							"$buttonGroup": new FormReference( "grpBtnPrimes" )
+							addEvent( new FormEvent( "javax.swing.event.ChangeListener", "stateChanged", "radTripletStateChanged", true ) )
+						}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+							"value": "cell 2 6,alignx left,growx 0"
+						} )
+						add( new FormComponent( "javax.swing.JButton" ) {
+							name: "btnHlpCunn"
+							"icon": #SwingIcon0
+							"background": #Color0
+							"maximumSize": #Dimension0
+							"minimumSize": #Dimension1
+							"preferredSize": #Dimension2
+							"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+							addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnHlpCunnActionPerformed", true ) )
+						}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+							"value": "cell 3 6"
+						} )
+						add( new FormComponent( "javax.swing.JRadioButton" ) {
+							name: "radCunningham"
+							"text": "Cunningham Chain"
+							"background": #Color1
+							"font": #Font2
+							"foreground": #Color2
+							"horizontalAlignment": 2
+							"iconTextGap": 8
+							"maximumSize": new java.awt.Dimension( 275, 30 )
+							"minimumSize": new java.awt.Dimension( 275, 30 )
+							"preferredSize": new java.awt.Dimension( 275, 30 )
+							"$buttonGroup": new FormReference( "grpBtnPrimes" )
+							"actionCommand": "Cunningham Chain"
+							addEvent( new FormEvent( "javax.swing.event.ChangeListener", "stateChanged", "radCunninghamStateChanged", true ) )
+						}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+							"value": "cell 4 6,growx"
+						} )
+						add( new FormComponent( "javax.swing.JButton" ) {
+							name: "btnHlpQuad"
+							"icon": #SwingIcon0
+							"background": #Color0
+							"maximumSize": #Dimension0
+							"minimumSize": #Dimension1
+							"preferredSize": #Dimension2
+							"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+							addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnHlpQuadActionPerformed", true ) )
+						}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+							"value": "cell 1 7"
+						} )
+						add( new FormComponent( "javax.swing.JRadioButton" ) {
+							name: "radQuad"
+							"text": "Quadruplet"
+							"background": #Color1
+							"font": #Font2
+							"foreground": #Color2
+							"horizontalAlignment": 2
+							"iconTextGap": 8
+							"maximumSize": &Dimension3 new java.awt.Dimension( 175, 30 )
+							"minimumSize": &Dimension4 new java.awt.Dimension( 175, 30 )
+							"preferredSize": &Dimension5 new java.awt.Dimension( 175, 30 )
+							"$buttonGroup": &FormReference0 new FormReference( "grpBtnPrimes" )
+							addEvent( new FormEvent( "javax.swing.event.ChangeListener", "stateChanged", "radQuadStateChanged", true ) )
+						}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+							"value": "cell 2 7,alignx left,growx 0"
+						} )
+						add( new FormComponent( "javax.swing.JButton" ) {
+							name: "btnHlpSafe"
+							"icon": #SwingIcon0
+							"background": #Color0
+							"maximumSize": #Dimension0
+							"minimumSize": #Dimension1
+							"preferredSize": #Dimension2
+							"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+							addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnHlpSafeActionPerformed", true ) )
+						}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+							"value": "cell 3 7"
+						} )
+						add( new FormComponent( "javax.swing.JRadioButton" ) {
+							name: "radSafe"
+							"text": "Safe"
+							"background": #Color1
+							"font": #Font2
+							"foreground": #Color2
+							"horizontalAlignment": 2
+							"iconTextGap": 8
+							"maximumSize": new java.awt.Dimension( 275, 30 )
+							"minimumSize": new java.awt.Dimension( 275, 30 )
+							"preferredSize": new java.awt.Dimension( 275, 30 )
+							"$buttonGroup": new FormReference( "grpBtnPrimes" )
+							"actionCommand": "Safe"
+							addEvent( new FormEvent( "javax.swing.event.ChangeListener", "stateChanged", "radSafeStateChanged", true ) )
+						}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+							"value": "cell 4 7,growx"
+						} )
+						add( new FormComponent( "javax.swing.JButton" ) {
+							name: "btnHlpQuint"
+							"icon": #SwingIcon0
+							"background": #Color0
+							"maximumSize": #Dimension0
+							"minimumSize": #Dimension1
+							"preferredSize": #Dimension2
+							"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+							addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnHlpQuintActionPerformed", true ) )
+						}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+							"value": "cell 1 8"
+						} )
+						add( new FormComponent( "javax.swing.JRadioButton" ) {
+							name: "radQuint"
+							"text": "Quintuplet"
+							"background": #Color1
+							"font": #Font2
+							"foreground": #Color2
+							"horizontalAlignment": 2
+							"iconTextGap": 8
+							"maximumSize": #Dimension3
+							"minimumSize": #Dimension4
+							"preferredSize": #Dimension5
+							"$buttonGroup": #FormReference0
+							addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "radQuintActionPerformed", true ) )
+						}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+							"value": "cell 2 8,alignx left,growx 0"
+						} )
+						add( new FormComponent( "javax.swing.JButton" ) {
+							name: "btnHlpBaln"
+							"icon": #SwingIcon0
+							"background": #Color0
+							"maximumSize": #Dimension0
+							"minimumSize": #Dimension1
+							"preferredSize": #Dimension2
+							"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+							addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnHlpBalnActionPerformed", true ) )
+						}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+							"value": "cell 3 8"
+						} )
+						add( new FormComponent( "javax.swing.JRadioButton" ) {
+							name: "radBalanced"
+							"text": "Balanced"
+							"background": #Color1
+							"font": #Font2
+							"foreground": #Color2
+							"horizontalAlignment": 2
+							"iconTextGap": 8
+							"maximumSize": new java.awt.Dimension( 275, 30 )
+							"minimumSize": new java.awt.Dimension( 275, 30 )
+							"preferredSize": new java.awt.Dimension( 275, 30 )
+							"$buttonGroup": new FormReference( "grpBtnPrimes" )
+							"actionCommand": "Balanced"
+							addEvent( new FormEvent( "javax.swing.event.ChangeListener", "stateChanged", "radBalancedStateChanged", true ) )
+						}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+							"value": "cell 4 8,growx"
+						} )
+						add( new FormComponent( "javax.swing.JButton" ) {
+							name: "btnHlpSext"
+							"icon": #SwingIcon0
+							"background": #Color0
+							"maximumSize": #Dimension0
+							"minimumSize": #Dimension1
+							"preferredSize": #Dimension2
+							"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+							addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnHlpSextActionPerformed", true ) )
+						}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+							"value": "cell 1 9"
+						} )
+						add( new FormComponent( "javax.swing.JRadioButton" ) {
+							name: "radSext"
+							"text": "Sextuplet"
+							"background": #Color1
+							"font": #Font2
+							"foreground": #Color2
+							"horizontalAlignment": 2
+							"iconTextGap": 8
+							"maximumSize": #Dimension3
+							"minimumSize": #Dimension4
+							"preferredSize": #Dimension5
+							"$buttonGroup": #FormReference0
+							addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "radSextActionPerformed", true ) )
+						}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+							"value": "cell 2 9,alignx left,growx 0"
+						} )
+						add( new FormComponent( "javax.swing.JButton" ) {
+							name: "btnHlpReglr"
+							"icon": #SwingIcon0
+							"background": #Color0
+							"maximumSize": #Dimension0
+							"minimumSize": #Dimension1
+							"preferredSize": #Dimension2
+							"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+							addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnHlpReglrActionPerformed", true ) )
+						}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+							"value": "cell 3 9"
+						} )
+						add( new FormComponent( "javax.swing.JRadioButton" ) {
+							name: "radRegular"
+							"text": "Just some plain old Prime numbers"
+							"background": new java.awt.Color( 0, 0, 102, 255 )
+							"font": #Font2
+							"foreground": new java.awt.Color( 153, 255, 255, 255 )
+							"horizontalAlignment": 2
+							"$buttonGroup": new FormReference( "grpBtnPrimes" )
+							"actionCommand": "Prime Numbers"
+							"maximumSize": new java.awt.Dimension( 325, 30 )
+							"minimumSize": new java.awt.Dimension( 325, 30 )
+							"preferredSize": new java.awt.Dimension( 326, 30 )
+							"iconTextGap": 8
+							addEvent( new FormEvent( "javax.swing.event.ChangeListener", "stateChanged", "radRegularStateChanged", true ) )
+						}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+							"value": "cell 4 9,growx"
+						} )
+						add( new FormComponent( "javax.swing.JButton" ) {
+							name: "btnHlpCousin"
+							"icon": #SwingIcon0
+							"background": #Color0
+							"maximumSize": #Dimension0
+							"minimumSize": #Dimension1
+							"preferredSize": #Dimension2
+							"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+							addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnHlpCousinActionPerformed", true ) )
+						}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+							"value": "cell 1 10"
+						} )
+						add( new FormComponent( "javax.swing.JRadioButton" ) {
+							name: "radCousin"
+							"text": "Cousin"
+							"background": #Color1
+							"font": #Font2
+							"foreground": #Color2
+							"horizontalAlignment": 2
+							"iconTextGap": 8
+							"maximumSize": new java.awt.Dimension( 175, 30 )
+							"minimumSize": new java.awt.Dimension( 175, 30 )
+							"preferredSize": new java.awt.Dimension( 175, 30 )
+							"$buttonGroup": new FormReference( "grpBtnPrimes" )
+							addEvent( new FormEvent( "javax.swing.event.ChangeListener", "stateChanged", "radCousinStateChanged", true ) )
+						}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+							"value": "cell 2 10,alignx left,growx 0"
+						} )
+						add( new FormComponent( "javax.swing.JButton" ) {
+							name: "btnHlpArProg"
+							"icon": #SwingIcon0
+							"background": new java.awt.Color( 204, 204, 204, 255 )
+							"maximumSize": #Dimension0
+							"minimumSize": #Dimension1
+							"preferredSize": #Dimension2
+							"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+							"foreground": new java.awt.Color( 102, 102, 102, 255 )
+							"enabled": false
+						}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+							"value": "cell 3 10"
+						} )
+						add( new FormComponent( "javax.swing.JRadioButton" ) {
+							name: "radArithProg"
+							"text": "Arithmetic Progression"
+							"background": new java.awt.Color( 204, 204, 204, 255 )
+							"font": #Font2
+							"foreground": new java.awt.Color( 102, 102, 102, 255 )
+							"horizontalAlignment": 2
+							"iconTextGap": 8
+							"maximumSize": new java.awt.Dimension( 275, 30 )
+							"minimumSize": new java.awt.Dimension( 275, 30 )
+							"preferredSize": new java.awt.Dimension( 275, 30 )
+							"actionCommand": "Arithmetic Progression"
+							"$buttonGroup": new FormReference( "grpBtnPrimes" )
+							"enabled": false
+						}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+							"value": "cell 4 10,growx"
+						} )
+						add( new FormComponent( "javax.swing.JButton" ) {
+							name: "btnHlpSxy"
+							"icon": #SwingIcon0
+							"background": #Color0
+							"maximumSize": #Dimension0
+							"minimumSize": #Dimension1
+							"preferredSize": #Dimension2
+							"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+							addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnHlpSxyActionPerformed", true ) )
+						}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+							"value": "cell 1 11"
+						} )
+						add( new FormComponent( "javax.swing.JRadioButton" ) {
+							name: "radSexy"
+							"text": "Sexy"
+							"background": #Color1
+							"font": #Font2
+							"foreground": #Color2
+							"horizontalAlignment": 2
+							"iconTextGap": 8
+							"maximumSize": new java.awt.Dimension( 175, 30 )
+							"minimumSize": new java.awt.Dimension( 175, 30 )
+							"preferredSize": new java.awt.Dimension( 175, 30 )
+							"$buttonGroup": new FormReference( "grpBtnPrimes" )
+							addEvent( new FormEvent( "javax.swing.event.ChangeListener", "stateChanged", "radSexyStateChanged", true ) )
+						}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+							"value": "cell 2 11,alignx left,growx 0"
+						} )
+						add( new FormComponent( "javax.swing.JButton" ) {
+							name: "btnHlpBiTwin"
+							"icon": #SwingIcon0
+							"background": new java.awt.Color( 204, 204, 204, 255 )
+							"maximumSize": #Dimension0
+							"minimumSize": #Dimension1
+							"preferredSize": #Dimension2
+							"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+							"foreground": new java.awt.Color( 102, 102, 102, 255 )
+							"enabled": false
+						}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+							"value": "cell 3 11"
+						} )
+						add( new FormComponent( "javax.swing.JRadioButton" ) {
+							name: "radBiTwin"
+							"text": "Bi-Twin Chain"
+							"background": new java.awt.Color( 204, 204, 204, 255 )
+							"font": #Font2
+							"foreground": new java.awt.Color( 102, 102, 102, 255 )
+							"horizontalAlignment": 2
+							"iconTextGap": 8
+							"maximumSize": new java.awt.Dimension( 200, 30 )
+							"minimumSize": new java.awt.Dimension( 200, 30 )
+							"preferredSize": new java.awt.Dimension( 200, 30 )
+							"$buttonGroup": new FormReference( "grpBtnPrimes" )
+							"enabled": false
+						}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+							"value": "cell 4 11,growx"
+						} )
+					}, new FormLayoutConstraints( class java.lang.String ) {
+						"value": "North"
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "Center"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+					"$layoutConstraints": "insets dialog,alignx right"
+					"$columnConstraints": "[fill][fill]"
+					"$rowSpecs": "[fill]"
+					"$rowConstraints": "[][]"
+				} ) {
+					name: "btnBar4Primes"
+					"background": new java.awt.Color( 0, 0, 102, 255 )
+					"foreground": new java.awt.Color( 153, 255, 255, 255 )
+					"maximumSize": new java.awt.Dimension( 750, 75 )
+					"minimumSize": new java.awt.Dimension( 750, 75 )
+					"preferredSize": new java.awt.Dimension( 750, 75 )
+					"border": new javax.swing.border.LineBorder( sfield java.awt.Color cyan, 1, true )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "btnOK"
+						"text": "OK"
+						"background": new java.awt.Color( 0, 0, 102, 255 )
+						"foreground": new java.awt.Color( 153, 255, 255, 255 )
+						"font": &Font3 new java.awt.Font( ".SF NS Text", 1, 16 )
+						"maximumSize": new java.awt.Dimension( 90, 45 )
+						"minimumSize": new java.awt.Dimension( 90, 45 )
+						"preferredSize": new java.awt.Dimension( 90, 45 )
+						"border": &LineBorder0 new javax.swing.border.LineBorder( sfield java.awt.Color cyan, 1, true )
+						"alignmentY": 0.0f
+						"margin": new java.awt.Insets( 0, 0, 0, 0 )
+						"horizontalTextPosition": 0
+						"iconTextGap": 0
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnOKActionPerformed", true ) )
+					}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+						"value": "cell 0 0"
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "btnCanx"
+						"text": "Exit App"
+						"background": new java.awt.Color( 0, 0, 102, 255 )
+						"foreground": new java.awt.Color( 153, 255, 255, 255 )
+						"font": #Font3
+						"maximumSize": new java.awt.Dimension( 90, 45 )
+						"minimumSize": new java.awt.Dimension( 90, 45 )
+						"preferredSize": new java.awt.Dimension( 90, 45 )
+						"border": #LineBorder0
+						"alignmentY": 0.0f
+						"margin": new java.awt.Insets( 0, 0, 0, 0 )
+						"horizontalTextPosition": 0
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "btnCanxActionPerformed", true ) )
+					}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+						"value": "cell 1 0"
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "South"
+				} )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "Center"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 710, 535 )
+		} )
+	}
+}

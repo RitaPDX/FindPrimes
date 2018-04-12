@@ -1,0 +1,1509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AEON.ProjectComponent">
+    <option name="HIGHLIGHT" value="false" />
+    <option name="FILTER_WHITESPACE" value="false" />
+    <option name="SHOW_PROPERTIES" value="true" />
+    <option name="SPLIT_DIVIDER_POSITION" value="300" />
+    <option name="AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="AUTOSCROLL_FROM_SOURCE" value="false" />
+    <option name="ENERGY_BREAK_POINT_VIEW" value="true" />
+    <option name="ENERGY_CALL_GRAPH_VIEW" value="false" />
+  </component>
+  <component name="AnalysisUIOptions">
+    <option name="CUSTOM_SCOPE_NAME" value="Current File" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c86dcc2f-c213-40a4-bf47-2429b592c452" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="src/Stuff" />
+    <ignored path=".idea/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/FindPrimes$Primes.coverage" NAME="Primes Coverage Results" MODIFIED="1494169659153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="Cvs2Configuration">
+    <option name="OVERRIDE_EXISTING_TAG_FOR_PROJECT" value="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="FindPrimes" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="clsFindPrimeNumbers.jfd" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/clsFindPrimeNumbers.jfd">
+          <provider selected="true" editor-type-id="JFormDesigner">
+            <state propertiesWidth="217" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clsPrimeRslts.jfd" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/clsPrimeRslts.jfd">
+          <provider selected="true" editor-type-id="JFormDesigner">
+            <state paletteWidth="119" propertiesWidth="594" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clsPrmRslt.jfd" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/clsPrmRslt.jfd">
+          <provider selected="true" editor-type-id="JFormDesigner">
+            <state propertiesWidth="594" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clsPrmRslt.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clsPrmRslt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+              <folding>
+                <marker date="1523321768000" expanded="false" signature="439:4703" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+                <marker date="1523321768000" expanded="false" signature="4711:5123" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clsMath.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/clsMath.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1110">
+              <caret line="74" selection-start-line="74" selection-end-line="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clsPrimeRslts.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/clsPrimeRslts.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2239">
+              <caret line="164" column="96" lean-forward="true" selection-start-line="164" selection-start-column="96" selection-end-line="164" selection-end-column="96" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1156#1243#0" />
+                <element signature="e#3965#3966#0" expanded="true" />
+                <element signature="e#4018#4019#0" expanded="true" />
+                <marker date="1523318432000" expanded="false" signature="342:720" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+                <marker date="1523318432000" expanded="true" signature="1156:6203" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clsCalcPrimes.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/clsCalcPrimes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1515">
+              <caret line="106" column="22" selection-start-line="106" selection-start-column="22" selection-end-line="106" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clsCatHelp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/clsCatHelp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1590">
+              <caret line="111" selection-start-line="111" selection-end-line="111" />
+              <folding>
+                <element signature="method#initComponents#0;class#clsCatHelp#0" />
+                <marker date="1523315714000" expanded="false" signature="13347:13729" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clsFindPrimeNumbers.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/clsFindPrimeNumbers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6270">
+              <caret line="436" column="4" selection-start-line="436" selection-start-column="4" selection-end-line="436" selection-end-column="4" />
+              <folding>
+                <marker date="1523317306000" expanded="false" signature="382:670" ph="..." />
+                <marker date="1523317306000" expanded="false" signature="8746:36180" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindBugs-IDEA-Workspace">
+    <toolWindowScrollToSource>false</toolWindowScrollToSource>
+    <toolWindowEditorPreview>false</toolWindowEditorPreview>
+    <toolWindowGroupBy>BugRank</toolWindowGroupBy>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>O</find>
+      <find>Op</find>
+      <find>Opa</find>
+      <find>Opaq</find>
+      <find>main</find>
+      <find>for (i = 1, p = 2;</find>
+      <find>clsOpenPrimes</find>
+      <find>C</find>
+      <find>Cu</find>
+      <find>Cun</find>
+      <find>Cunn</find>
+      <find>Cunni</find>
+      <find>Cunnin</find>
+      <find>Cunning</find>
+      <find>Cunningh</find>
+      <find>Cunningha</find>
+      <find>Cunningham</find>
+      <find>Cunningham C</find>
+      <find>Cunningham Ch</find>
+      <find>Cunningham Cha</find>
+      <find>Cunningham Chai</find>
+      <find>Cunningham Chain</find>
+      <find>Sophie</find>
+      <find>intCat == )</find>
+      <find>strCat</find>
+      <find>this.</find>
+      <find>strSetCat(intCat)</find>
+      <find>&quot;), &quot;</find>
+      <find>GetNext</find>
+      <find>GetPrev</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>(intCatSafe)</replace>
+      <replace>(intCatQuad)</replace>
+      <replace>)</replace>
+      <replace>final int intCat</replace>
+      <replace>dlgHlp.intCat</replace>
+      <replace>if (dlgHlp.</replace>
+      <replace>intCat = dlgHlp.</replace>
+      <replace>) {</replace>
+      <replace>intCnt);}</replace>
+      <replace>, p +</replace>
+      <replace>clsMath</replace>
+      <replace>checkIfPrime</replace>
+      <replace>isPrime</replace>
+      <replace>(&quot;(&quot; + a +</replace>
+      <replace>&quot;, &quot;</replace>
+      <replace>dlgPrmRslt</replace>
+      <replace>p</replace>
+      <replace>p,</replace>
+      <replace>p++</replace>
+      <replace>isPrime(p)</replace>
+      <replace>int p</replace>
+      <replace>(p)</replace>
+      <replace>txtPrmRslt</replace>
+      <replace>for (i = 1, p = intValInit;</replace>
+      <replace>intCat == dlgHlp. )</replace>
+      <replace>strSetCat.strCat</replace>
+      <replace>strSetCategory(intCat)</replace>
+      <replace>&quot;),  &quot;</replace>
+      <replace>GetBalNxt</replace>
+      <replace>GetBalPrv</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="GroovyConsoleState">
+    <option name="list">
+      <list>
+        <Entry>
+          <option name="url" value="file://$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console_1.groovy" />
+          <option name="moduleName" value="FindPrimeNumbers" />
+          <option name="title" value="FindPrimeNumbers (Bundled Groovy 2.4.6)" />
+        </Entry>
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/JBaseDialog.java" />
+        <option value="$PROJECT_DIR$/src/MyDialog.java" />
+        <option value="$PROJECT_DIR$/src/clsFindPrimes.java" />
+        <option value="$PROJECT_DIR$/clsFindPrimeNumbers.jfd" />
+        <option value="$PROJECT_DIR$/src/clsFindPrimes.jfd" />
+        <option value="$PROJECT_DIR$/TestForm.jfd" />
+        <option value="$PROJECT_DIR$/dlgHelp.jfd" />
+        <option value="$PROJECT_DIR$/src/dlgHelp.java" />
+        <option value="$PROJECT_DIR$/dlgHelp.java" />
+        <option value="$PROJECT_DIR$/src/clsDlgHelp.java" />
+        <option value="$PROJECT_DIR$/clsDlgHelp.jfd" />
+        <option value="$PROJECT_DIR$/clsHelp.jfd" />
+        <option value="$PROJECT_DIR$/src/clsHelp.java" />
+        <option value="$PROJECT_DIR$/src/clsHelp.jfd" />
+        <option value="$PROJECT_DIR$/src/dlgCatHelp.jfd" />
+        <option value="$PROJECT_DIR$/src/dlgCatHelp.java" />
+        <option value="$PROJECT_DIR$/src/clsFindMyPrimes.java" />
+        <option value="$PROJECT_DIR$/src/Twins.java" />
+        <option value="$PROJECT_DIR$/src/PrimeNumber2.java" />
+        <option value="$PROJECT_DIR$/src/clsTwins.java" />
+        <option value="$PROJECT_DIR$/src/clsPrimeTriplet.java" />
+        <option value="$PROJECT_DIR$/src/clsDoPrimeCalcs.java" />
+        <option value="$PROJECT_DIR$/src/clsTuplets.java" />
+        <option value="$PROJECT_DIR$/src/clsFindPrime.java" />
+        <option value="$PROJECT_DIR$/src/clsCatHelp.java" />
+        <option value="$PROJECT_DIR$/src/Stuff" />
+        <option value="$PROJECT_DIR$/src/tabDlgMain.jfd" />
+        <option value="$PROJECT_DIR$/src/clsOpenPrimes.java" />
+        <option value="$PROJECT_DIR$/src/clsCatHelp.jfd" />
+        <option value="$PROJECT_DIR$/src/clsPrimeRslts.java" />
+        <option value="$PROJECT_DIR$/src/clsFindPrimeNumbers.java" />
+        <option value="$PROJECT_DIR$/src/clsSetCategory.java" />
+        <option value="$PROJECT_DIR$/src/clsCalcPrimes.java" />
+        <option value="$PROJECT_DIR$/src/clsMath.java" />
+        <option value="$PROJECT_DIR$/src/clsCalcPrimesMod.java" />
+        <option value="$PROJECT_DIR$/src/clsFindPrimeNumbers.jfd" />
+        <option value="$PROJECT_DIR$/src/clsPrimeRslts.jfd" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/clsFindPrimeNumbers.jfd" />
+        <option value="$PROJECT_DIR$/src/main/java/clsCatHelp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/clsMath.java" />
+        <option value="$PROJECT_DIR$/src/main/java/clsCalcPrimes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/clsPrimeRslts.jfd" />
+        <option value="$PROJECT_DIR$/clsPrmRslt.jfd" />
+        <option value="$PROJECT_DIR$/src/main/java/clsPrimeRslts.java" />
+        <option value="$PROJECT_DIR$/src/main/java/clsPrmRslt.jfd" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="FindPrimeNumbers" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="FindPrimeNumbers" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="FindPrimeNumbers" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="130" />
+    <option name="y" value="67" />
+    <option name="width" value="2265" />
+    <option name="height" value="1313" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>Gradle</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>Maven</id>
+          </State>
+          <State>
+            <id>Probable bugsGradle</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>TodoComment</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FindPrimes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FindPrimes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FindPrimes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FindPrimes" type="462c0819:PsiDirectoryNode" />
+              <item name="mvnPrimes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FindPrimes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FindPrimes" type="462c0819:PsiDirectoryNode" />
+              <item name="mvnPrimes" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FindPrimes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FindPrimes" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FindPrimes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FindPrimes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FindPrimes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FindPrimes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FindPrimes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FindPrimes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/ritapdx/Documents/workspace/FindPrimes/src/clsMath.java" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Primes">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="FndPrm" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="clsFindPrime" />
+      <module name="FindPrimeNumbers" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="JBase" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="MyDialog" />
+      <module name="JBase" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Primes" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="clsOpenPrimes" />
+      <module name="FindPrimeNumbers" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Prm2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="PrimeNumbers2" />
+      <module name="FindPrimeNumbers" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Trps" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="clsDoPrimeCalcs" />
+      <module name="FindPrimeNumbers" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="JBase" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <list>
+      <item itemvalue="Application.JBase" />
+      <item itemvalue="Application.Primes" />
+      <item itemvalue="Application.Prm2" />
+      <item itemvalue="Application.Trps" />
+      <item itemvalue="Application.FndPrm" />
+    </list>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c86dcc2f-c213-40a4-bf47-2429b592c452" name="Default" comment="" />
+      <created>1493737082286</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1493737082286</updated>
+    </task>
+    <task id="LOCAL-00001">
+      <created>1495573575855</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1495573575855</updated>
+    </task>
+    <task id="LOCAL-00002">
+      <created>1495573640058</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1495573640058</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initial version of all java and JForm files">
+      <created>1495573913387</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1495573913387</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added code to clear text from results dialog&#10;Added vertical scrolling in same&#10;Added code to limit line length">
+      <created>1496189548159</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1496189548159</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Removed operations with clsPrimeRslts&#10;Removed references to function checkIfPrime due to inconsistent results.">
+      <created>1496341807079</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1496341807079</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Restored operations with clsPrimeRslts.">
+      <created>1497114772068</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1497114772068</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added initial value feature">
+      <created>1497400735068</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1497400735068</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added initial value feature">
+      <created>1523314254685</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1523314254685</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="130" y="67" width="2265" height="1313" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="5" sideWeight="0.498103" weight="0.32774517" />
+      <window_info anchor="bottom" id="SBT Console" order="6" sideWeight="0.49796334" weight="0.32942164" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="6" sideWeight="0.49796334" weight="0.32942164" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.48828828" weight="0.21374686" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="TCPMON" order="7" show_stripe_button="false" weight="0.32948452" />
+      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.5136612" side_tool="true" weight="0.32774517" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.32928476" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4863388" weight="0.32774517" />
+      <window_info anchor="bottom" id="Run" order="13" sideWeight="0.47477478" weight="0.20452641" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49796334" weight="0.32942164" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48520085" visible="true" weight="0.17948718" />
+      <window_info anchor="bottom" id="Dilbert" order="7" sideWeight="0.48968512" weight="0.4626991" />
+      <window_info anchor="right" id="Database" order="5" show_stripe_button="false" weight="0.32948452" />
+      <window_info id="Structure" order="1" sideWeight="0.5147992" side_tool="true" weight="0.21862349" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24948454" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="3" sideWeight="0.5151515" side_tool="true" weight="0.19073324" />
+      <window_info anchor="bottom" id="Debug" order="2" sideWeight="0.4979804" weight="0.20536463" />
+      <window_info anchor="right" id="AEON" order="4" weight="0.3298969" />
+      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32774517" />
+      <window_info anchor="right" id="Coverage" order="8" show_stripe_button="false" side_tool="true" weight="0.32986563" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Properties" order="4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Nl-Palette" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49376693" weight="0.24769874" />
+      <window_info anchor="right" id="Color Manager" order="4" weight="0.3298969" />
+      <window_info anchor="bottom" id="JFormDesigner Error Log" order="9" weight="0.3288926" />
+      <window_info anchor="right" id="AdbCommander" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="14" weight="0.32972524" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Geek &amp; Poke" order="6" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="8" show_stripe_button="false" side_tool="true" weight="0.32986563" />
+      <window_info anchor="right" id="TCPMON" order="7" weight="0.32957748" />
+      <window_info anchor="bottom" id="JFormDesigner Error Log" order="9" weight="0.3288926" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.21482098" />
+      <window_info id="Project" order="0" sideWeight="0.49789473" visible="true" weight="0.22206573" />
+      <window_info id="Structure" order="1" weight="0.24929577" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24976526" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.3288926" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32972524" />
+      <window_info anchor="bottom" id="Dilbert" order="7" weight="0.4637802" />
+      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32805994" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.24812657" />
+      <window_info anchor="right" id="Geek &amp; Poke" order="6" side_tool="true" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32957748" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="bottom" id="Run" order="13" sideWeight="0.50210524" visible="true" weight="0.21981682" />
+      <window_info anchor="bottom" id="Debug" order="2" sideWeight="0.4979804" weight="0.20649458" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.50736964" side_tool="true" weight="0.19983347" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32972524" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.32957748" />
+      <window_info id="Favorites" order="3" sideWeight="0.5032802" side_tool="true" weight="0.2488263" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManager.ChangeBrowser.CVS">
+    <option name="DATE_BEFORE" />
+    <option name="DATE_AFTER" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial version of all java and JForm files" />
+    <MESSAGE value="Added code to clear text from results dialog&#10;Added vertical scrolling in same&#10;Added code to limit line length" />
+    <MESSAGE value="Removed operations with clsPrimeRslts&#10;Removed references to function checkIfPrime due to inconsistent results." />
+    <MESSAGE value="Restored operations with clsPrimeRslts." />
+    <MESSAGE value="Added initial value feature" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added initial value feature" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/clsMath.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="255" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/clsMath.java</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="256" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/clsCalcPrimes.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="257" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/clsCalcPrimes.java</url>
+          <line>150</line>
+          <properties />
+          <option name="timeStamp" value="258" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="259" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="lstRslts" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="FindPrimes" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="FindPrimes" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/clsCalcPrimes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1590">
+          <caret line="106" column="22" selection-start-line="106" selection-start-column="22" selection-end-line="106" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clsCatHelp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1590">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
+          <folding>
+            <element signature="method#initComponents#0;class#clsCatHelp#0" />
+            <marker date="1523315714000" expanded="false" signature="13347:13729" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clsFindPrimeNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6540">
+          <caret line="436" column="4" selection-start-line="436" selection-start-column="4" selection-end-line="436" selection-end-column="4" />
+          <folding>
+            <marker date="1523317306000" expanded="false" signature="382:670" ph="..." />
+            <marker date="1523317306000" expanded="false" signature="8746:36180" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clsPrmRslt.jfd">
+      <provider selected="true" editor-type-id="JFormDesigner">
+        <state paletteWidth="0" propertiesWidth="0" structureHeight="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clsFindPrimeNumbers.jfd">
+      <provider selected="true" editor-type-id="JFormDesigner">
+        <state paletteWidth="0" propertiesWidth="0" structureHeight="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clsPrimeRslts.jfd">
+      <provider selected="true" editor-type-id="JFormDesigner">
+        <state paletteWidth="0" propertiesWidth="0" structureHeight="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clsPrmRslt.jfd">
+      <provider selected="true" editor-type-id="JFormDesigner">
+        <state paletteWidth="0" propertiesWidth="0" structureHeight="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clsPrmRslt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+          <folding>
+            <marker date="1523321768000" expanded="false" signature="439:4703" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <marker date="1523321768000" expanded="false" signature="4711:5123" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clsMath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clsCalcPrimes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1590">
+          <caret line="106" column="22" selection-start-line="106" selection-start-column="22" selection-end-line="106" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clsCatHelp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1665">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
+          <folding>
+            <element signature="method#initComponents#0;class#clsCatHelp#0" />
+            <marker date="1523315714000" expanded="false" signature="13347:13729" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clsFindPrimeNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8820">
+          <caret line="588" column="43" selection-start-line="588" selection-start-column="43" selection-end-line="588" selection-end-column="43" />
+          <folding>
+            <marker date="1523317306000" expanded="false" signature="382:670" ph="..." />
+            <marker date="1523317306000" expanded="false" signature="8746:36180" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clsPrimeRslts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1156#1243#0" />
+            <element signature="e#3965#3966#0" expanded="true" />
+            <element signature="e#4018#4019#0" expanded="true" />
+            <marker date="1523318432000" expanded="false" signature="342:720" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+            <marker date="1523318432000" expanded="true" signature="1156:6203" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clsFindPrimeNumbers.jfd">
+      <provider selected="true" editor-type-id="JFormDesigner">
+        <state paletteWidth="0" propertiesWidth="0" structureHeight="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clsPrimeRslts.jfd">
+      <provider selected="true" editor-type-id="JFormDesigner">
+        <state paletteWidth="0" propertiesWidth="0" structureHeight="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clsFindPrimeNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7980">
+          <caret line="590" column="43" selection-start-line="590" selection-start-column="43" selection-end-line="590" selection-end-column="43" />
+          <folding>
+            <marker date="1523317306000" expanded="false" signature="382:670" ph="..." />
+            <marker date="1523317306000" expanded="false" signature="8746:36180" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clsCalcPrimes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="2" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clsFindPrimeNumbers.jfd">
+      <provider selected="true" editor-type-id="JFormDesigner">
+        <state paletteWidth="0" propertiesWidth="0" structureHeight="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clsPrimeRslts.jfd">
+      <provider selected="true" editor-type-id="JFormDesigner">
+        <state paletteWidth="0" propertiesWidth="0" structureHeight="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clsFindPrimeNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8850">
+          <caret line="590" column="43" selection-start-line="590" selection-start-column="43" selection-end-line="590" selection-end-column="43" />
+          <folding>
+            <marker date="1523317306000" expanded="false" signature="382:670" ph="..." />
+            <marker date="1523317306000" expanded="false" signature="8746:36180" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clsCalcPrimes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="2" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clsFindPrimeNumbers.jfd">
+      <provider selected="true" editor-type-id="JFormDesigner">
+        <state paletteWidth="0" propertiesWidth="0" structureHeight="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clsPrimeRslts.jfd">
+      <provider selected="true" editor-type-id="JFormDesigner">
+        <state paletteWidth="0" propertiesWidth="0" structureHeight="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clsFindPrimeNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8850">
+          <caret line="590" column="43" selection-start-line="590" selection-start-column="43" selection-end-line="590" selection-end-column="43" />
+          <folding>
+            <marker date="1523317306000" expanded="false" signature="382:670" ph="..." />
+            <marker date="1523317306000" expanded="false" signature="8746:36180" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clsCalcPrimes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="2" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clsFindPrimeNumbers.jfd">
+      <provider selected="true" editor-type-id="JFormDesigner">
+        <state paletteWidth="0" propertiesWidth="0" structureHeight="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clsPrimeRslts.jfd">
+      <provider selected="true" editor-type-id="JFormDesigner">
+        <state paletteWidth="0" propertiesWidth="0" structureHeight="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clsFindPrimeNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7965">
+          <caret line="588" column="43" selection-start-line="588" selection-start-column="43" selection-end-line="588" selection-end-column="43" />
+          <folding>
+            <marker date="1523317306000" expanded="false" signature="382:670" ph="..." />
+            <marker date="1523317306000" expanded="false" signature="8746:36180" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clsCalcPrimes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="2" lean-forward="true" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clsFindPrimeNumbers.jfd">
+      <provider selected="true" editor-type-id="JFormDesigner">
+        <state paletteWidth="0" propertiesWidth="0" structureHeight="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clsPrimeRslts.jfd">
+      <provider selected="true" editor-type-id="JFormDesigner">
+        <state paletteWidth="0" propertiesWidth="0" structureHeight="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clsCalcPrimes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clsFindPrimeNumbers.jfd">
+      <provider selected="true" editor-type-id="JFormDesigner">
+        <state paletteWidth="0" propertiesWidth="0" structureHeight="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clsPrimeRslts.jfd">
+      <provider selected="true" editor-type-id="JFormDesigner">
+        <state paletteWidth="0" propertiesWidth="0" structureHeight="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clsMath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="95" column="30" selection-start-line="95" selection-start-column="30" selection-end-line="95" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clsFindPrimeNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6525">
+          <caret line="435" column="4" selection-start-line="435" selection-start-column="4" selection-end-line="435" selection-end-column="4" />
+          <folding>
+            <marker date="1523317306000" expanded="false" signature="382:670" ph="..." />
+            <marker date="1523317306000" expanded="false" signature="8746:36180" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clsPrimeRslts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clsCatHelp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+          <folding>
+            <element signature="method#initComponents#0;class#clsCatHelp#0" />
+            <marker date="1523315714000" expanded="false" signature="13347:13729" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clsCalcPrimesMod.java" />
+    <entry file="uml://MAVEN/groupId:FindPrimeNumbers:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>groupId:FindPrimeNumbers:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">groupId:FindPrimeNumbers:1.0-SNAPSHOT</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="74.0" y="15.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clsFindPrimeNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6270">
+          <caret line="436" column="4" selection-start-line="436" selection-start-column="4" selection-end-line="436" selection-end-column="4" />
+          <folding>
+            <marker date="1523317306000" expanded="false" signature="382:670" ph="..." />
+            <marker date="1523317306000" expanded="false" signature="8746:36180" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home/src.zip!/java/awt/event/ActionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="39" column="127" lean-forward="true" selection-start-line="39" selection-start-column="127" selection-end-line="39" selection-end-column="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clsFindPrimeNumbers.jfd">
+      <provider selected="true" editor-type-id="JFormDesigner">
+        <state propertiesWidth="217" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clsCatHelp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1590">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
+          <folding>
+            <element signature="method#initComponents#0;class#clsCatHelp#0" />
+            <marker date="1523315714000" expanded="false" signature="13347:13729" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clsMath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clsCalcPrimes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1515">
+          <caret line="106" column="22" selection-start-line="106" selection-start-column="22" selection-end-line="106" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clsPrmRslt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+          <folding>
+            <marker date="1523321768000" expanded="false" signature="439:4703" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <marker date="1523321768000" expanded="false" signature="4711:5123" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clsPrimeRslts.jfd">
+      <provider selected="true" editor-type-id="JFormDesigner">
+        <state paletteWidth="119" propertiesWidth="594" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clsPrmRslt.jfd">
+      <provider selected="true" editor-type-id="JFormDesigner">
+        <state propertiesWidth="594" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clsPrimeRslts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2239">
+          <caret line="164" column="96" lean-forward="true" selection-start-line="164" selection-start-column="96" selection-end-line="164" selection-end-column="96" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1156#1243#0" />
+            <element signature="e#3965#3966#0" expanded="true" />
+            <element signature="e#4018#4019#0" expanded="true" />
+            <marker date="1523318432000" expanded="false" signature="342:720" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+            <marker date="1523318432000" expanded="true" signature="1156:6203" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>FindPrimeNumbers</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

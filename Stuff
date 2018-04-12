@@ -1,0 +1,951 @@
+
+    //clsFindPrimeNumbers clsFind = new clsFindPrimeNumbers();
+    //int intPrimeCount = (Integer) clsFind.spnCount.getValue();
+
+  //    public static boolean checkIfPrime(int n)
+  //      {
+  //      // Converting long to BigInteger
+  //      BigInteger b = new BigInteger(String.valueOf(n));
+  //
+  //      return b.isProbablePrime(1);
+  //      }
+
+
+
+
+  public static void DoBalancedCalc(int intCount)
+    {
+    int i, a, b, c, n;
+    int Count = 0;
+    n = 0;
+    for (i = 1, a = 3; i <= intCount; a++)
+      {
+      b = a - n;
+      c = a + n;
+      if (clsMath.checkIfPrime(a))
+        {
+        Count++;
+        b = GetPrev(a);
+        c = GetNext(a);
+        if (clsMath.checkIfPrime(b) && clsMath.checkIfPrime(c))
+          {
+          if (((c - a) == (a - b)) && ((a - b) == (c - a)))
+            {
+            System.out.println(b + "\t" + a + "\t" + c);
+            i++;
+            }
+          }
+        }
+      }
+    System.out.println("Total number of Balanced Primes: " + Count);
+    }
+
+//  public static void DoTwinCalc(int intCount)
+//    {
+//    int i, a, b;
+//    int Count = 0;
+//    for (i = 1, a = 2; i <= intCount; a++)
+//      {
+//      b = a + 2;
+//      if (MyMath.isPrime(a) && MyMath.isPrime(b))
+//        {
+//        Count++;
+//        System.out.println(a + "\t" + b);
+//        i++;
+//        }
+//      }
+//    System.out.println("Total number of Twin Primes: " + Count);
+//    }
+
+//  public static void DoCousinCalc(int intCount)
+//    {
+//    int i, a, b;
+//    int Count = 0;
+//    for (i = 1, a = 2; i <= intCount; a++)
+//      {
+//      b = a + 4;
+//      if (MyMath.isPrime(a) && MyMath.isPrime(b))
+//        {
+//        Count++;
+//        System.out.println(a + "\t" + b);
+//        i++;
+//        }
+//      }
+//    System.out.println("Total number of Cousin Primes: " + Count);
+//    }
+//
+//  public static void DoSexyCalc(int intCount)
+//    {
+//    int i, a, b;
+//    int Count = 0;
+//    for (i = 1, a = 2; i <= intCount; a++)
+//      {
+//      b = a + 6;
+//      if (MyMath.isPrime(a) && MyMath.isPrime(b))
+//        {
+//        Count++;
+//        System.out.println(a + "\t" + b);
+//        i++;
+//        }
+//      }
+//    System.out.println("Total number of Sexy Primes: " + Count);
+//    }
+
+
+import net.miginfocom.swing.MigLayout;
+
+import javax.swing.*;
+import javax.swing.border.LineBorder;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+/*
+ * Created by JFormDesigner on Sat May 13 18:18:29 PDT 2017
+ */
+
+
+
+/**
+ * @author Henriette Beigh
+ */
+public class clsCatHelp
+  {
+
+//  public clsCatHelp(Frame owner) {
+//    super(owner);
+//    initComponents();
+//  }
+//
+//  public clsCatHelp(Dialog owner) {
+//    super(owner);
+//    initComponents();
+//  }
+
+  public String[] strHlpArr = new String[12];
+  //public JTextArea txtHlp;
+
+  public clsCatHelp()
+    {
+    // initialize help strings
+    this.strHlpArr[(intCatTwim)] = "Twin Primes \n" +
+      "A pair of prime numbers in the form \n" +
+      "(p, p + 2)  Example (3, 5), (11, 13)";
+    this.strHlpArr[1] = "Bi-twin Chain \n" +
+      "A sequence of prime numbers in the form \n" +
+      "of length k - 1 is defined as a collection \n" +
+      "of natural numbers: (n − 1, n + 1, 2n − 1, 2n + 1, …) \n" +
+      "such that all the numbers in the chain are prime.";
+    this.strHlpArr[2] = "Triplet Primes \n" +
+      "Three prime numbers in the form \n" +
+      "(p, p + 2, p + 6) or (p, p + 4, p + 6)  \n" +
+      "Example (3, 5, 7), (5, 7, 11), (7, 11, 13)";
+    this.strHlpArr[3] = "Quadruplet Primes: \n" +
+    "A prime constellation of four successive primes \n" +
+    "with minimal distance (p,p+2,p+6,p+8). \n" +
+    "With the exception of (5, 7, 11, 13), a prime \n" +
+    "quadruple must be of the form (30n+11, 30n+13, 30n+17, 30n+19).\n" +
+    "Examples: (5,  7,   11, 13), (11, 13, 17, 19) \n" +
+    "The first few values of n which give prime quadruples\n" +
+    "are n=0, 3, 6, 27, 49, 62, 69, 108, 115, ...";
+    this.strHlpArr[4] = "";
+    this.strHlpArr[5] = "";
+    this.strHlpArr[6] = "";
+    this.strHlpArr[7] = "";
+    this.strHlpArr[8] = "";
+    this.strHlpArr[9] = "";
+    this.strHlpArr[10] = "";
+    this.strHlpArr[11] = "";
+    }
+
+  boolean blnAlreadyOpen = false;
+
+
+  public void OpenDlg()
+    {
+    if (blnAlreadyOpen == false)
+      {
+      this.initComponents();
+      this.clsCatHlp.setVisible(true);
+      blnAlreadyOpen = true;
+      }
+    }
+
+
+
+
+  private void okButtonActionPerformed(ActionEvent e)
+    {
+    this.clsCatHlp.setVisible(false);
+    this.clsCatHlp.dispose();
+    blnAlreadyOpen = false;
+    }
+
+  private void initComponents() {
+    // JFormDesigner - Component initialization - DO NOT MODIFY  //GEN-BEGIN:initComponents
+    // Generated using JFormDesigner non-commercial license
+    clsCatHlp = new JDialog();
+    panel6 = new JPanel();
+    pnlDlgPnl = new JPanel();
+    panel5 = new JPanel();
+    buttonBar = new JPanel();
+    btnOK = new JButton();
+    panel4 = new JPanel();
+
+    //======== clsCatHlp ========
+    {
+      clsCatHlp.setBackground(Color.white);
+      clsCatHlp.setFont(new Font("Lucida Grande", Font.BOLD, 13));
+      clsCatHlp.setTitle("Help: Prime Number Categories");
+      clsCatHlp.setAlwaysOnTop(true);
+      clsCatHlp.setName("clsCatHlp");
+      Container clsCatHlpContentPane = clsCatHlp.getContentPane();
+
+      //======== panel6 ========
+      {
+
+        //======== pnlDlgPnl ========
+        {
+          pnlDlgPnl.setLayout(new BorderLayout());
+
+          //======== panel5 ========
+          {
+            panel5.setLayout(new BorderLayout());
+
+            //======== buttonBar ========
+            {
+              buttonBar.setBackground(Color.white);
+              buttonBar.setForeground(Color.black);
+              buttonBar.setFont(new Font(".SF NS Text", Font.BOLD, 16));
+              buttonBar.setLayout(new MigLayout(
+                "insets dialog,alignx right",
+                // columns
+                "[fill]",
+                // rows
+                null));
+
+              //---- btnOK ----
+              btnOK.setText("OK");
+              btnOK.setBackground(Color.black);
+              btnOK.setForeground(Color.white);
+              btnOK.setFont(UIManager.getFont("Button.font"));
+              btnOK.setMaximumSize(new Dimension(70, 35));
+              btnOK.setMinimumSize(new Dimension(70, 35));
+              btnOK.setPreferredSize(new Dimension(70, 35));
+              btnOK.setBorder(new LineBorder(Color.black, 2, true));
+              btnOK.setOpaque(true);
+              btnOK.addActionListener(e -> okButtonActionPerformed(e));
+              buttonBar.add(btnOK, "tag ok,cell 0 0");
+            }
+            panel5.add(buttonBar, BorderLayout.CENTER);
+          }
+          pnlDlgPnl.add(panel5, BorderLayout.PAGE_END);
+        }
+
+        GroupLayout panel6Layout = new GroupLayout(panel6);
+        panel6.setLayout(panel6Layout);
+        panel6Layout.setHorizontalGroup(
+          panel6Layout.createParallelGroup()
+            .addGroup(panel6Layout.createSequentialGroup()
+              .addContainerGap()
+              .addComponent(pnlDlgPnl, GroupLayout.PREFERRED_SIZE, 398, GroupLayout.PREFERRED_SIZE)
+              .addContainerGap(24, Short.MAX_VALUE))
+        );
+        panel6Layout.setVerticalGroup(
+          panel6Layout.createParallelGroup()
+            .addGroup(panel6Layout.createSequentialGroup()
+              .addContainerGap()
+              .addComponent(pnlDlgPnl, GroupLayout.PREFERRED_SIZE, 276, GroupLayout.PREFERRED_SIZE)
+              .addContainerGap())
+        );
+      }
+
+      //======== panel4 ========
+      {
+
+        GroupLayout panel4Layout = new GroupLayout(panel4);
+        panel4.setLayout(panel4Layout);
+        panel4Layout.setHorizontalGroup(
+          panel4Layout.createParallelGroup()
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+        panel4Layout.setVerticalGroup(
+          panel4Layout.createParallelGroup()
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+      }
+
+      GroupLayout clsCatHlpContentPaneLayout = new GroupLayout(clsCatHlpContentPane);
+      clsCatHlpContentPane.setLayout(clsCatHlpContentPaneLayout);
+      clsCatHlpContentPaneLayout.setHorizontalGroup(
+        clsCatHlpContentPaneLayout.createParallelGroup()
+          .addGroup(clsCatHlpContentPaneLayout.createSequentialGroup()
+            .addContainerGap()
+            .addComponent(panel4, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+            .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED)
+            .addComponent(panel6, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+            .addContainerGap())
+      );
+      clsCatHlpContentPaneLayout.setVerticalGroup(
+        clsCatHlpContentPaneLayout.createParallelGroup()
+          .addGroup(clsCatHlpContentPaneLayout.createSequentialGroup()
+            .addComponent(panel6, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+            .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED)
+            .addComponent(panel4, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+            .addGap(288, 288, 288))
+      );
+      clsCatHlp.pack();
+      clsCatHlp.setLocationRelativeTo(clsCatHlp.getOwner());
+    }
+    // JFormDesigner - End of component initialization  //GEN-END:initComponents
+  }
+
+  // JFormDesigner - Variables declaration - DO NOT MODIFY  //GEN-BEGIN:variables
+  // Generated using JFormDesigner non-commercial license
+  private JDialog clsCatHlp;
+  private JPanel panel6;
+  private JPanel pnlDlgPnl;
+  private JPanel panel5;
+  private JPanel buttonBar;
+  private JButton btnOK;
+  private JPanel panel4;
+  // JFormDesigner - End of variables declaration  //GEN-END:variables
+}
+
+
+//  public static boolean isPrime(int n)
+//    {
+//
+//    //check if n is a multiple of 2
+//    if ((n % 2 == 0))
+//      {
+//      return false;
+//      }
+//
+//    //if not, then just check the odds
+//    for (int i = 3; i * i <= n; i += 2)
+//      {
+//      if (n % i == 0)
+//        {
+//        return false;
+//        }
+//      }
+//    return true;
+//    }
+
+
+
+//
+//  public static void DoTwinCalc(int intCount)
+//    {
+//    String primeno = "";
+//    int lastprime = 1;
+//    int j = 0;
+//    //int i = 0;
+//    int intPrimeCnt = 0;
+////    Scanner in = new Scanner(System.in);
+////    System.out.println("Enter the number");
+////    int n = in.nextInt();
+////    for (int k = 1; k < intPrimeCnt; i++)
+//      for (int i = 1; i < intCount; i++)
+//      {
+//      for (j = 2; j < i; j++)
+//        {
+//        if (i % j == 0)
+//          {
+//          break;
+//          }
+//        }
+//      if (i == j)
+//        {
+//        primeno += i + "";
+//        if ((i - lastprime) == 2)
+//          {
+//          System.out.println("(" + (i - 2) + "," + i + ")");
+//          intPrimeCnt += 2;
+//          }
+//        lastprime = i;
+//        }
+//      }
+//    }
+//
+//  public boolean blnIsItPrime(int intIn)
+//    {
+//    boolean blnIsPrime = true;
+//
+//    if (intIn <= 2 || intIn % 2 == 0)
+//      {
+//      blnIsPrime = false;
+//      }
+//
+//    int top = (int) Math.sqrt(intIn) + 1;
+//    for (int i = 3; i < top; i += 2)
+//      {
+//      if (intIn % i == 0)
+//        {
+//        blnIsPrime = false;
+//        }
+//      }
+//    return blnIsPrime;
+//    }
+//  }
+
+
+
+
+---------------------------------------------------------
+
+import javax.swing.*;
+
+/**
+ * Created by ritapdx on 5/2/17.
+ */
+
+public class clsFindMyPrimes
+  {
+
+  // Global Variable Declarations
+
+
+  public static void close(JDialog dlgMe)
+    {
+    dlgMe.setVisible(false);
+    dlgMe.dispose();
+    }
+
+
+  public static void main(String[] args)
+    {
+    clsFindPrimeNumbers dlgPrimes = new clsFindPrimeNumbers();
+    dlgPrimes.initComponents();
+    dlgPrimes.OpenDlg();
+    }
+  }
+
+
+
+
+
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+
+public class JButtonListenerExample
+{
+  static JFrame frame;
+
+  public static void main(String[] args)
+  {
+    // schedule this for the event dispatch thread (edt)
+    SwingUtilities.invokeLater(new Runnable()
+    {
+      public void run()
+      {
+        displayJFrame();
+      }
+    });
+  }
+
+  static void displayJFrame()
+  {
+    frame = new JFrame("Our JButton listener example");
+
+    // create our jbutton
+    JButton showDialogButton = new JButton("Click Me");
+
+    // add the listener to the jbutton to handle the "pressed" event
+    showDialogButton.addActionListener(new ActionListener()
+    {
+      public void actionPerformed(ActionEvent e)
+      {
+        // display/center the jdialog when the button is pressed
+        JDialog d = new JDialog(frame, "Hello", true);
+        d.setLocationRelativeTo(frame);
+        d.setVisible(true);
+      }
+    });
+
+    // put the button on the frame
+    frame.getContentPane().setLayout(new FlowLayout());
+    frame.add(showDialogButton);
+
+    // set up the jframe, then display it
+    frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+    frame.setPreferredSize(new Dimension(300, 200));
+    frame.pack();
+    frame.setLocationRelativeTo(null);
+    frame.setVisible(true);
+  }
+}
+
+
+
+
+  private void initComponents()
+    {
+    // JFormDesigner - Component initialization - DO NOT MODIFY  //GEN-BEGIN:initComponents
+    // Generated using JFormDesigner Evaluation license - Henriette Beigh
+    frmFindPrimes = new JDialog();
+    buttonBar = new JPanel();
+    btnOK = new JButton();
+    btnCanx = new JButton();
+    contentPanel = new JPanel();
+    lblPrimes2 = new JLabel();
+    spnCount = new JSpinner();
+    lblPrimes = new JLabel();
+    rad00 = new JRadioButton();
+    rad06 = new JRadioButton();
+    rad01 = new JRadioButton();
+    rad07 = new JRadioButton();
+    rad02 = new JRadioButton();
+    rad08 = new JRadioButton();
+    rad03 = new JRadioButton();
+    ras09 = new JRadioButton();
+    rad04 = new JRadioButton();
+    rad10 = new JRadioButton();
+    rad05 = new JRadioButton();
+    rad11 = new JRadioButton();
+
+    //======== frmFindPrimes ========
+    {
+    frmFindPrimes.setBackground(new Color(0, 0, 204));
+    frmFindPrimes.setForeground(new Color(153, 255, 255));
+    frmFindPrimes.setTitle("Find Prime Numbers");
+    Container frmFindPrimesContentPane = frmFindPrimes.getContentPane();
+    frmFindPrimesContentPane.setLayout(new BorderLayout());
+
+    //======== buttonBar ========
+    {
+    buttonBar.setBackground(new Color(0, 0, 102));
+    buttonBar.setForeground(new Color(153, 255, 255));
+
+    // JFormDesigner evaluation mark
+    buttonBar.setBorder(new javax.swing.border.CompoundBorder(
+      new javax.swing.border.TitledBorder(new javax.swing.border.EmptyBorder(0, 0, 0, 0),
+                                          "JFormDesigner Evaluation", javax.swing.border.TitledBorder.CENTER,
+                                          javax.swing.border.TitledBorder.BOTTOM,
+                                          new java.awt.Font("Dialog", java.awt.Font.BOLD, 12),
+                                          java.awt.Color.red), buttonBar.getBorder()));
+    buttonBar.addPropertyChangeListener(e ->
+                                        {
+                                        if ("border".equals(e.getPropertyName()))
+                                          {
+                                          throw new RuntimeException();
+                                          }
+                                        });
+
+    buttonBar.setLayout(new MigLayout(
+      "insets dialog,alignx right",
+      // columns
+      "[5!,fill]" +
+        "[fill]" +
+        "[fill]" +
+        "[25!,fill]",
+      // rows
+      "[]"));
+
+    JPanel panel = new JPanel(new MigLayout());
+
+
+    //---- btnOK ----
+    btnOK.setText("OK");
+    btnOK.setBackground(new Color(0, 0, 102));
+    btnOK.setForeground(new Color(153, 255, 255));
+    btnOK.setFont(new Font(".SF NS Text", Font.BOLD, 13));
+    btnOK.setBorder(new LineBorder(Color.cyan, 1, true));
+    btnOK.setMaximumSize(new Dimension(65, 35));
+    btnOK.setMinimumSize(new Dimension(65, 35));
+    btnOK.setPreferredSize(new Dimension(65, 35));
+    btnOK.addMouseListener(new MouseAdapter()
+      {
+      @Override
+      public void mouseClicked(MouseEvent e)
+        {
+        btnOKMouseClicked(e);
+        }
+      });
+    buttonBar.add(btnOK, "cell 1 0");
+
+    //---- btnCanx ----
+    btnCanx.setText("Cancel");
+    btnCanx.setBackground(new Color(0, 0, 102));
+    btnCanx.setForeground(new Color(153, 255, 255));
+    btnCanx.setFont(new Font(".SF NS Text", Font.BOLD, 13));
+    btnCanx.setBorder(new LineBorder(Color.cyan, 1, true));
+    btnCanx.setMargin(new Insets(3, 3, 3, 3));
+    btnCanx.setMaximumSize(new Dimension(65, 35));
+    btnCanx.setMinimumSize(new Dimension(65, 35));
+    btnCanx.addMouseListener(new MouseAdapter()
+      {
+      @Override
+      public void mouseClicked(MouseEvent e)
+        {
+        btnCanxMouseClicked(e);
+        }
+      });
+    buttonBar.add(btnCanx, "cell 2 0");
+    }
+    frmFindPrimesContentPane.add(buttonBar, BorderLayout.SOUTH);
+
+    //======== contentPanel ========
+    {
+    contentPanel.setBackground(new Color(0, 0, 102));
+    contentPanel.setForeground(new Color(153, 255, 255));
+    contentPanel.setMaximumSize(new Dimension(125, 30));
+    contentPanel.setLayout(new MigLayout(
+      "insets dialog,hidemode 3",
+      // columns
+      "[fill]" +
+        "[fill]" +
+        "[fill]" +
+        "[fill]" +
+        "[300:283:300,fill]" +
+        "[fill]",
+      // rows
+      "[]" +
+        "[]" +
+        "[]" +
+        "[]" +
+        "[]" +
+        "[]" +
+        "[]" +
+        "[]" +
+        "[]"));
+
+//    //---- lblPrimes2 ----
+//    lblPrimes2.setText("Select the category of Prime numbers you wish to find:  ");
+//    lblPrimes2.setBackground(new Color(0, 0, 102));
+//    lblPrimes2.setFont(new Font(".SF NS Text", Font.BOLD, 13));
+//    lblPrimes2.setForeground(new Color(153, 255, 255));
+//    lblPrimes2.setHorizontalAlignment(SwingConstants.LEFT);
+//    lblPrimes2.setMaximumSize(new Dimension(370, 25));
+//    lblPrimes2.setMinimumSize(new Dimension(370, 25));
+//    lblPrimes2.setPreferredSize(new Dimension(370, 25));
+//    contentPanel.add(lblPrimes2, "cell 0 0 5 1,alignx right,growx 0");
+//
+    //---- spnCount ----
+    spnCount.setBackground(new Color(0, 51, 153));
+    spnCount.setForeground(new Color(153, 255, 255));
+    spnCount.setFont(new Font(".SF NS Text", Font.BOLD, 13));
+    spnCount.setMinimumSize(new Dimension(90, 30));
+    spnCount.setMaximumSize(new Dimension(90, 30));
+    spnCount.setBorder(new LineBorder(Color.cyan, 1, true));
+    spnCount.setPreferredSize(new Dimension(90, 30));
+    spnCount.setModel(new SpinnerNumberModel(1, null, null, 1));
+    contentPanel.add(spnCount, "pad 0,cell 4 1,alignx trailing,growx 0,width 90:90:90,height 30:30:30");
+
+    //---- lblPrimes ----
+    lblPrimes.setText("Select the category of Prime number you wish to find:  ");
+    lblPrimes.setBackground(new Color(0, 0, 102));
+    lblPrimes.setFont(new Font(".SF NS Text", Font.BOLD, 13));
+    lblPrimes.setForeground(new Color(153, 255, 255));
+    lblPrimes.setHorizontalAlignment(SwingConstants.LEFT);
+    lblPrimes.setMaximumSize(new Dimension(370, 25));
+    lblPrimes.setMinimumSize(new Dimension(370, 25));
+    lblPrimes.setPreferredSize(new Dimension(370, 25));
+    contentPanel.add(lblPrimes, "cell 0 2 5 1,alignx right,growx 0");
+
+    //---- rad00 ----
+    rad00.setText("Twin");
+    rad00.setBackground(new Color(0, 0, 102));
+    rad00.setFont(new Font(".SF NS Text", Font.BOLD, 13));
+    rad00.setForeground(new Color(153, 255, 255));
+    rad00.setHorizontalAlignment(SwingConstants.LEFT);
+    rad00.setIconTextGap(8);
+    rad00.setMaximumSize(new Dimension(70, 30));
+    rad00.setMinimumSize(new Dimension(70, 30));
+    rad00.setPreferredSize(new Dimension(70, 30));
+    contentPanel.add(rad00, "cell 2 3");
+
+    //---- rad06 ----
+    rad06.setText("Sophie Germain");
+    rad06.setBackground(new Color(0, 0, 102));
+    rad06.setFont(new Font(".SF NS Text", Font.BOLD, 13));
+    rad06.setForeground(new Color(153, 255, 255));
+    rad06.setHorizontalAlignment(SwingConstants.LEFT);
+    rad06.setIconTextGap(8);
+    rad06.setMaximumSize(new Dimension(200, 30));
+    rad06.setMinimumSize(new Dimension(200, 30));
+    rad06.setPreferredSize(new Dimension(200, 30));
+    contentPanel.add(rad06, "cell 4 3,alignx left,growx 0");
+
+    //---- rad01 ----
+    rad01.setText("Bi-Twin Chain");
+    rad01.setBackground(new Color(0, 0, 102));
+    rad01.setFont(new Font(".SF NS Text", Font.BOLD, 13));
+    rad01.setForeground(new Color(153, 255, 255));
+    rad01.setHorizontalAlignment(SwingConstants.LEFT);
+    rad01.setIconTextGap(8);
+    rad01.setMaximumSize(new Dimension(125, 30));
+    rad01.setMinimumSize(new Dimension(70, 30));
+    rad01.setPreferredSize(new Dimension(70, 30));
+    contentPanel.add(rad01, "cell 2 4,width 110:110:110");
+
+    //---- rad07 ----
+    rad07.setText("Cunningham Chain");
+    rad07.setBackground(new Color(0, 0, 102));
+    rad07.setFont(new Font(".SF NS Text", Font.BOLD, 13));
+    rad07.setForeground(new Color(153, 255, 255));
+    rad07.setHorizontalAlignment(SwingConstants.LEFT);
+    rad07.setIconTextGap(8);
+    rad07.setMaximumSize(new Dimension(200, 30));
+    rad07.setMinimumSize(new Dimension(200, 30));
+    rad07.setPreferredSize(new Dimension(200, 30));
+    contentPanel.add(rad07, "cell 4 4,alignx left,growx 0");
+
+    //---- rad02 ----
+    rad02.setText("Triplet");
+    rad02.setBackground(new Color(0, 0, 102));
+    rad02.setFont(new Font(".SF NS Text", Font.BOLD, 13));
+    rad02.setForeground(new Color(153, 255, 255));
+    rad02.setHorizontalAlignment(SwingConstants.LEFT);
+    rad02.setIconTextGap(8);
+    rad02.setMaximumSize(new Dimension(125, 30));
+    rad02.setMinimumSize(new Dimension(70, 30));
+    rad02.setPreferredSize(new Dimension(70, 30));
+    contentPanel.add(rad02, "cell 2 5");
+
+    //---- rad08 ----
+    rad08.setText("Safe");
+    rad08.setBackground(new Color(0, 0, 102));
+    rad08.setFont(new Font(".SF NS Text", Font.BOLD, 13));
+    rad08.setForeground(new Color(153, 255, 255));
+    rad08.setHorizontalAlignment(SwingConstants.LEFT);
+    rad08.setIconTextGap(8);
+    rad08.setMaximumSize(new Dimension(200, 30));
+    rad08.setMinimumSize(new Dimension(200, 30));
+    rad08.setPreferredSize(new Dimension(200, 30));
+    contentPanel.add(rad08, "cell 4 5,alignx left,growx 0");
+
+    //---- rad03 ----
+    rad03.setText("Quadruplet");
+    rad03.setBackground(new Color(0, 0, 102));
+    rad03.setFont(new Font(".SF NS Text", Font.BOLD, 13));
+    rad03.setForeground(new Color(153, 255, 255));
+    rad03.setHorizontalAlignment(SwingConstants.LEFT);
+    rad03.setIconTextGap(8);
+    rad03.setMaximumSize(new Dimension(125, 30));
+    rad03.setMinimumSize(new Dimension(70, 30));
+    rad03.setPreferredSize(new Dimension(70, 30));
+    contentPanel.add(rad03, "cell 2 6");
+
+    //---- ras09 ----
+    ras09.setText("Arithmetic Progression");
+    ras09.setBackground(new Color(0, 0, 102));
+    ras09.setFont(new Font(".SF NS Text", Font.BOLD, 13));
+    ras09.setForeground(new Color(153, 255, 255));
+    ras09.setHorizontalAlignment(SwingConstants.LEFT);
+    ras09.setIconTextGap(8);
+    ras09.setMaximumSize(new Dimension(200, 30));
+    ras09.setMinimumSize(new Dimension(200, 30));
+    ras09.setPreferredSize(new Dimension(200, 30));
+    ras09.setActionCommand("Arithmetic Progression");
+    contentPanel.add(ras09, "cell 4 6,alignx left,growx 0");
+
+    //---- rad04 ----
+    rad04.setText("Cousin");
+    rad04.setBackground(new Color(0, 0, 102));
+    rad04.setFont(new Font(".SF NS Text", Font.BOLD, 13));
+    rad04.setForeground(new Color(153, 255, 255));
+    rad04.setHorizontalAlignment(SwingConstants.LEFT);
+    rad04.setIconTextGap(8);
+    rad04.setMaximumSize(new Dimension(125, 30));
+    rad04.setMinimumSize(new Dimension(70, 30));
+    rad04.setPreferredSize(new Dimension(70, 30));
+    contentPanel.add(rad04, "cell 2 7");
+
+    //---- rad10 ----
+    rad10.setText("Balanced");
+    rad10.setBackground(new Color(0, 0, 102));
+    rad10.setFont(new Font(".SF NS Text", Font.BOLD, 13));
+    rad10.setForeground(new Color(153, 255, 255));
+    rad10.setHorizontalAlignment(SwingConstants.LEFT);
+    rad10.setIconTextGap(8);
+    rad10.setMaximumSize(new Dimension(200, 30));
+    rad10.setMinimumSize(new Dimension(200, 30));
+    rad10.setPreferredSize(new Dimension(200, 30));
+    contentPanel.add(rad10, "cell 4 7,alignx left,growx 0");
+
+    //---- rad05 ----
+    rad05.setText("Sexy");
+    rad05.setBackground(new Color(0, 0, 102));
+    rad05.setFont(new Font(".SF NS Text", Font.BOLD, 13));
+    rad05.setForeground(new Color(153, 255, 255));
+    rad05.setHorizontalAlignment(SwingConstants.LEFT);
+    rad05.setIconTextGap(8);
+    rad05.setMaximumSize(new Dimension(125, 30));
+    rad05.setMinimumSize(new Dimension(70, 30));
+    rad05.setPreferredSize(new Dimension(70, 30));
+    contentPanel.add(rad05, "cell 2 8");
+
+    //---- rad11 ----
+    rad11.setText("Just some plain old consecutive Primes");
+    rad11.setBackground(new Color(0, 0, 102));
+    rad11.setFont(new Font(".SF NS Text", Font.BOLD, 13));
+    rad11.setForeground(new Color(153, 255, 255));
+    rad11.setHorizontalAlignment(SwingConstants.LEFT);
+    rad11.setActionCommand("Just some plain old\nconsecutive Primes");
+    contentPanel.add(rad11, "cell 4 8");
+    }
+    frmFindPrimesContentPane.add(contentPanel, BorderLayout.NORTH);
+    frmFindPrimes.pack();
+    frmFindPrimes.setLocationRelativeTo(frmFindPrimes.getOwner());
+    }
+
+    //---- grpBtnPrimes ----
+    ButtonGroup grpBtnPrimes = new ButtonGroup();
+    grpBtnPrimes.add(rad00);
+    grpBtnPrimes.add(rad06);
+    grpBtnPrimes.add(rad01);
+    grpBtnPrimes.add(rad07);
+    grpBtnPrimes.add(rad02);
+    grpBtnPrimes.add(rad08);
+    grpBtnPrimes.add(rad03);
+    grpBtnPrimes.add(ras09);
+    grpBtnPrimes.add(rad04);
+    grpBtnPrimes.add(rad10);
+    grpBtnPrimes.add(rad05);
+    grpBtnPrimes.add(rad11);
+    // JFormDesigner - End of component initialization  //GEN-END:initComponents
+    }
+
+public String[] strHlpArr = new String[12];
+  public JTextArea txtHlp;
+
+
+
+
+  public clsHelp()
+    {
+    // initialize help strings
+    this.strHlpArr[0] = "Twin Primes \n" +
+      "A pair of prime numbers in the form \n" +
+      "(p, p + 2)  Example (3, 5), (11, 13)";
+    this.strHlpArr[1] = "Bi-twin Chain \n" +
+      "A sequence of prime numbers in the form \n" +
+      "of length k - 1 is defined as a collection \n" +
+      "of natural numbers: (n − 1, n + 1, 2n − 1, 2n + 1, …) \n" +
+      "such that all the numbers in the chain are prime.";
+    this.strHlpArr[2] = "Triplet Primes \n" +
+      "Three prime numbers in the form \n" +
+      "(p, p + 2, p + 6) or (p, p + 4, p + 6)  \n" +
+      "Example (3, 5, 7), (5, 7, 11), (7, 11, 13)";
+    this.strHlpArr[3] = "";
+    this.strHlpArr[4] = "";
+    this.strHlpArr[5] = "";
+    this.strHlpArr[6] = "";
+    this.strHlpArr[7] = "";
+    this.strHlpArr[8] = "";
+    this.strHlpArr[9] = "";
+    this.strHlpArr[10] = "";
+    this.strHlpArr[11] = "";
+
+    initComponents();
+    txtHlp = txtHelp;
+
+    }
+
+
+  public static int intFindPrevOrNext(int intPrimeIn, boolean blnPN)
+    {
+//    int intRetVal = -1;
+//    int i;
+//    int p = intPrimeIn;
+//    boolean blnOK = false;
+//
+//    if (blnPN)
+//      {
+//      for (i = p + 1; false; 1++)
+//        {
+//        if (clsMath.isPrime(i))
+//          {
+//          blnOK = true;
+//          }
+//        }
+//      }
+//    else
+//      {
+//      for (1, p -= 1; false; p--)
+//        {
+//        if (clsMath.isPrime(p))
+//          {
+//          blnOK = true;
+//          }
+//        }
+//      }
+//    System.out.println("Previous or Next Prime, where p = 53: " + p);
+//    return p;
+
+    int a, i, j;
+    Scanner in = new Scanner(System.in);
+    System.out.println("Enter the number: ");
+    a = in.nextInt();
+
+    for (j = a + 1; ; j++)
+      {
+      for (i = 2; i < j; i++)
+        {
+        if (j % i == 0)
+          {
+          break;
+          }
+        }
+      if (i == j)
+        {
+        System.out.println("Next prime no is:" + j);
+        break;
+        }
+      }
+    return j;
+    }
+
+
+mport java.io.*;
+class prNext
+{ public static void main(String Ar[])
+{ int a=0,i,j;
+DataInputStream ins=new DataInputStream(System.in);
+try
+{ System.out.println(“Enter the no.:”);
+a=Integer.parseInt(ins.readLine());
+}
+catch(IOException e)
+{}
+for(j=a+1;;j++)
+{ for(i=2;i<j;i++)
+{ if(j%i==0)
+break;
+}
+if(i==j)
+{ System.out.println(“Next prime no is:”+j);
+break;
+}
+}
+}
+}
+
+/**
+ * Created by ritapdx on 5/26/17.
+ */
+
+// A Java program to check if a number is prime using
+// inbuilt function
+import java.math.BigInteger;
+
+class clsFindPrime
+  {
+  //Function to check and return prime numbers
+  static boolean checkPrime(int n)
+    {
+    // Converting long to BigInteger
+    BigInteger b = new BigInteger(String.valueOf(n));
+
+    return b.isProbablePrime(1);
+    }
+
+  // Driver method
+  public static void main (String[] args)
+    throws java.lang.Exception
+    {
+    int n = 26;
+    System.out.println(checkPrime(n));
+    }
+  }
